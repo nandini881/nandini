@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #9b4667;
+    color: #333;
+}
+img {
+    border-radius:30%;
+    width:125px;
+    height:125px;
+    margin-top:1rem;
+}
+
+header {
+    background-color: #0a3c8c;
+    color: white;
+    padding:5px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+main {
+    padding:20px;
+    max-width:800px;
+    margin:0 auto;
+    background:#0a3c8c;
+    box-shadow:0 0 10px #308f51(0,0,0,0.1);
+}
+section {
+    
+    margin: 10px;
+}
+h2 {
+    border-bottom: 1%solid #8e6f5b;
+    padding-bottom:2px;
+}
+table {
+    width: 100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+table th,table td {
+    border:2px solid #5e264321;
+    padding: 8px;
+    text-align:left;
+}
+table th {
+    background-color:aqua;
+    color:blanchedalmond;
+}
+ul {
+    list-style-type:square;
+    margin: 10px;
+}
+a {
+    color:aquamarine;
+    text-decoration:solid;
+}
+a:hover {
+    text-decoration:#0a3c8c;
+}
+job {
+    margin-bottom:10px;
+}
+footer {
+    background-color: #932c2c;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Styling for Contact Form */
+form {
+    display: grid;
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #8e6f5b;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 5%;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5%;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}
